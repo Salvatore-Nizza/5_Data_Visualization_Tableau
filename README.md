@@ -74,19 +74,10 @@ The project offers several recommendations for public policies aimed at well-bei
 ## Useful Resources
 
 To view the work done in Tableau and access the project’s resources:
-*   **Overview Dashboard**: [Link to Overview Dashboard on Tableau]
-*   **2015–2019 Trends Dashboard**: [Link to 2015–2019 Trends Dashboard on Tableau]
-*   **Drive Folder with Resources**: [Link to the Drive folder]
+*   **Overview Dashboard**
+*   **2015–2019 Trends Dashboard**
+*   **Drive Folder with Resources**
     *   Includes the datasets used for this project.
     *   Includes guidelines for navigating the dashboards on Tableau.
-
-## Risorse Utili
-
-Per visionare il lavoro svolto su Tableau e accedere alle risorse del progetto:
-*   **Overview Dashboard**: [Link Overview Dashboard su Tableau]
-*   **Evoluzione 2015-2019 Dashboard**: [Link Evoluzione 2015-2019 Dashboard su Tableau]
-*   **Cartella Drive con Risorse**: [Link alla cartella Drive]
-    *   Include i dataset utilizzati per questo progetto.
-    *   Include le linee guida per navigare tra le Dashboard su Tableau.
 
 ---
