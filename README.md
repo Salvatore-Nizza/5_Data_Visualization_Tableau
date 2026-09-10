@@ -1,75 +1,84 @@
-# Progetto Data Visualization con Tableau: Lo Stato della Felicità Globale
+# Data Visualization Project with Tableau: The State of Global Happiness
 
-Questo progetto mira a esplorare lo stato della felicità a livello globale utilizzando dati forniti dal World Happiness Report.
+This project aims to explore the state of happiness on a global scale using data from the World Happiness Report.
 
-## Descrizione del Progetto
+## Project Description
 
-Il World Happiness Report, pubblicato annualmente il 20 marzo, classifica oltre 150 Paesi in base al loro livello di felicità e i suoi indicatori sono ampiamente utilizzati per informare decisioni politiche.
+The World Happiness Report, published annually on March 20, ranks over 150 countries based on their level of happiness, and its indicators are widely used to inform policy decisions.
 
-Operando come un'organizzazione no profit che supporta le amministrazioni locali nella creazione di politiche pubbliche orientate al benessere, l'obiettivo di questo progetto è ottenere informazioni utili da fornire a governi e amministrazioni. Questi enti potranno usare i dati come base per decisioni strategiche, identificando aree di forza e criticità per orientare la creazione di politiche pubbliche efficaci e mirate al benessere delle persone. Questo si realizza presentando **insight sulla situazione e il trend annuale della felicità e dei suoi indicatori**.
+As a nonprofit organization that supports local governments in creating public policies focused on well-being, the goal of this project is to generate useful insights to share with governments and local administrations. These entities can use the data as a basis for strategic decisions, identifying areas of strength and challenge to guide the creation of effective public policies aimed at people’s well-being. This is achieved by presenting **insights into the current state and annual trends of happiness and its indicators**.
 
-## Fonte Dati e Metodologia
+## Data Source and Methodology
 
-I dati utilizzati provengono dal **Gallup World Poll** e coprono l'indice di felicità dei vari Paesi nel periodo che va dal **2015 al 2019**.
+The data used comes from the **Gallup World Poll** and covers the happiness index of various countries for the period from **2015 to 2019**.
 
-Per l'analisi sono state prese in considerazione le seguenti **6 metriche (KPI) che contribuiscono alla felicità** (Happiness) di uno Stato:
-*   **Economy** (PIL pro capite)
-*   **Family** (Supporto sociale)
-*   **Freedom** (Libertà)
-*   **Generosity** (Altruismo)
-*   **Health** (Aspettativa di vita)
-*   **Trust** (Fiducia nelle Istituzioni)
+The analysis took into account the following **6 metrics (KPIs) that contribute to a country’s happiness**:
+*   **Economy** (GDP per capita)
+*   **Family** (Social support)
+*   **Freedom** (Liberty)
+*   **Generosity** (Altruism)
+*   **Health** (Life expectancy)
+*   **Trust** (Trust in institutions)
 
-L'analisi si è concentrata principalmente sui seguenti aspetti:
-*   Overview delle medie dei KPI e della Felicità e il loro rapporto a livello sia globale sia regionale nel periodo tra il 2015 e il 2019.
-*   Classifiche dei KPI e della Felicità a livello globale nei diversi anni nel periodo tra il 2015 e il 2019.
-*   Evoluzione 2015 - 2019: variazione dei KPI e della Felicità a livello regionale nel periodo tra il 2015 e il 2019.
-*   Classifiche della differenza percentuale dei KPI e della Felicità tra due anni di riferimento nel periodo tra il 2015 e il 2019.
+The analysis focused primarily on the following aspects:
+*   An overview of the averages for the KPIs and happiness, and their relationship at both the global and regional levels between 2015 and 2019.
+*   Global rankings of KPIs and Happiness across different years from 2015 to 2019.
+*   Trends from 2015 to 2019: changes in KPIs and Happiness at the regional level from 2015 to 2019.
+*   Rankings of the percentage difference in KPIs and happiness between two reference years from 2015 to 2019.
 
 ## Dashboard
 
-Il progetto include dashboard per l'Overview e l'Evoluzione 2015-2019.
+The project includes dashboards for the Overview and the 2015–2019 Trends.
 
-## Principali Risultati e Insight
+## Key Findings and Insights
 
-### Cosa Rende Felice il Mondo? - Overview
-*   L'analisi ha evidenziato una **notevole stabilità nei trend di felicità e dei suoi fattori tra il 2015 e il 2019**.
-*   **Nord America, Europa Occidentale, Australia e Nuova Zelanda sono le Regioni più felici**, mentre l'Africa Sub-Sahariana e l'Asia del Sud sono le meno felici.
-*   È importante notare che i dati per Nord America, Australia e Nuova Zelanda si basano su un numero limitato di stati e alcuni presentano valori mancanti, il che richiede cautela nell'interpretazione.
+### What Makes the World Happy? - Overview
+*   The analysis revealed **remarkable stability in happiness trends and their contributing factors between 2015 and 2019**.
+*   **North America, Western Europe, Australia, and New Zealand are the happiest regions**, while Sub-Saharan Africa and South Asia are the least happy.
+*   It is important to note that the data for North America, Australia, and New Zealand are based on a limited number of states, and some have missing values, which requires caution in interpretation.
 
-### Il Ruolo Chiave degli Indicatori
-*   **Supporto Sociale (Family)**: Esiste una **significativa correlazione** tra il supporto sociale e la felicità, tanto che la Top 10 dei paesi per supporto sociale è quasi sovrapponibile alla classifica di felicità, con l'unica eccezione dell'Uzbekistan.
-*   **Generosità (Generosity)**: D'altro canto, la generosità ha una **bassa correlazione con la felicità** e non la influenza in modo altrettanto significativo; nella Top 10 per generosità sono presenti diversi Stati che non si ritrovano nei primi posti della classifica di felicità.
-*   **Altri Indicatori**: Le altre metriche influenzano discretamente i valori di felicità.
-    *   **Singapore** spicca in ben tre fattori: **Economy, Health e Trust**.
-    *   In **Freedom** ritroviamo l'Uzbekistan e compare la Cambogia.
-    *   In **Trust** compaiono due Paesi dell'Africa Sub-Sahariana, il Ruanda e il Somaliland.
-    *   Gli **Stati esportatori di petrolio e gas naturale** sono nelle prime posizioni in **Economy**.
-    *   Gli **Stati dell'Est asiatico** si distinguono in **Health**.
+### The Key Role of Indicators
+*   **Social Support (Family)**: There is a **significant correlation** between social support and happiness, so much so that the Top 10 countries for social support almost exactly match the happiness ranking, with the sole exception of Uzbekistan.
+*   **Generosity**: On the other hand, generosity has a **low correlation with happiness** and does not influence it as significantly; the Top 10 for generosity includes several countries that do not appear at the top of the happiness rankings.
+*   **Other Indicators**: The other metrics have a moderate influence on happiness scores.
+    *   **Singapore** stands out in three factors: **Economy, Health, and Trust**.
+    *   In **Freedom**, we find Uzbekistan, and Cambodia also appears.
+    *   In **Trust**, two Sub-Saharan African countries appear: Rwanda and Somaliland.
+    *   **Oil- and natural gas-exporting countries** rank at the top in **Economy**.
+    *   **East Asian countries** stand out in **Health**.
 
-### La Felicità nel Tempo - Evoluzione 2015-2019
-*   Il comportamento della felicità negli anni mostra una **notevole stabilità generalmente per tutte le Regioni**, confermata anche da una contenuta variazione percentuale tra il 2015 e il 2019.
-*   Alcuni fattori, come **Family e Health**, mantengono una certa crescita o stabilità nel tempo, resistendo meglio ai mutamenti.
-*   Altri fattori, come **Freedom, Generosity e Trust**, mostrano comportamenti altalenanti o decrescenti, indicando una maggiore sensibilità alle variazioni globali e rendendoli **ottimi indicatori di stress o di cambiamento sociale**.
-*   Analizzando casi specifici, il **Benin (+46%) e il Venezuela (-31%)** sono stati rispettivamente gli stati con la maggiore crescita e decrescita in termini di felicità tra il 2015 e il 2019. Nonostante trend simili per vari fattori (positivo per Family e Health, negativo per Freedom, Generosity e Trust) per entrambi, la **Economy amplifica notevolmente la differenza** nel comportamento della felicità. Questo sottolinea l'importanza di comprendere il contesto sociale di ogni singolo Stato.
+### Happiness Over Time - Trends 2015–2019
+*   Happiness levels over the years show **remarkable stability across all regions**, as confirmed by a modest percentage change between 2015 and 2019.
+*   Some factors, such as **Family and Health**, maintain a certain level of growth or stability over time, proving more resilient to change.
+*   Other factors, such as **Freedom, Generosity, and Trust**, show fluctuating or declining trends, indicating greater sensitivity to global changes and making them **excellent indicators of stress or social change**.
+*   Analyzing specific cases, **Benin (+46%) and Venezuela (-31%)** were, respectively, the countries with the greatest increase and decrease in happiness between 2015 and 2019. Despite similar trends across various factors (positive for Family and Health, negative for Freedom, Generosity, and Trust) for both, the **Economy significantly amplifies the difference** in happiness trends. This underscores the importance of understanding the social context of each individual country.
 
-## Opportunità e Criticità per le Politiche Pubbliche
+## Opportunities and Challenges for Public Policy
 
-Il progetto offre diverse indicazioni per le politiche pubbliche mirate al benessere:
-*   **Promuovere la Libertà Individuale**: Politiche che rafforzano le libertà civili, economiche e personali hanno un impatto positivo sulla percezione del benessere.
-*   **Investire nel Supporto Sociale e nella Salute**: Programmi di supporto comunitario, accesso a servizi sanitari di qualità e reti di sicurezza sociale sono cruciali, essendo fattori più stabili e resistenti ai mutamenti.
-*   **Contrastare la Corruzione (rafforzando la Fiducia)**: Politiche di trasparenza e buona governance possono migliorare la fiducia e la felicità. La fiducia è un fattore sensibile e un ottimo indicatore di stress o cambiamento sociale.
-*   **Incoraggiare la Generosità**: Iniziative che incoraggiano la solidarietà e l'impegno civico possono rafforzare il tessuto sociale; la generosità è un fattore sensibile al cambiamento sociale e un indicatore di stress.
-*   **Monitorare gli outlier**: Possono fungere da segnale anticipatore di crisi.
-*   **Adattare le politiche ai contesti locali**: Le disomogeneità, anche all'interno delle stesse regioni, richiedono interventi mirati, specialmente nei paesi in regressione sistemica.
-*   **Integrare l'analisi con Fattori Culturali e Contestuali**: È cruciale comprendere le specificità del contesto e l'impatto di variabili come politica, ambiente e demografia per spiegare il divario tra indicatori e felicità.
+The project offers several recommendations for public policies aimed at well-being:
+*   **Promoting Individual Freedom**: Policies that strengthen civil, economic, and personal freedoms have a positive impact on the perception of well-being.
+*   **Investing in Social Support and Health**: Community support programs, access to quality health care, and social safety nets are crucial, as they are more stable and resilient to change.
+*   **Combating Corruption (by Strengthening Trust)**: Policies promoting transparency and good governance can improve trust and happiness. Trust is a sensitive indicator and an excellent measure of stress or social change.
+*   **Encouraging Generosity**: Initiatives that encourage solidarity and civic engagement can strengthen the social fabric; generosity is sensitive to social change and serves as an indicator of stress.
+*   **Monitoring outliers**: They can serve as early warning signs of crises.
+*   **Adapting policies to local contexts**: Disparities, even within the same regions, require targeted interventions, especially in countries experiencing systemic decline.
+*   **Integrate analysis with cultural and contextual factors**: It is crucial to understand the specific characteristics of the context and the impact of variables such as politics, the environment, and demographics to explain the gap between indicators and happiness.
 
-## Riflessioni Finali
+## Final Reflections
 
-*   Le **disuguaglianze globali sono ancora forti** e c'è una netta polarizzazione regionale nella distribuzione della felicità.
-*   Il progresso del benessere può essere guidato con **politiche pubbliche mirate**, basate su modelli virtuosi identificati.
-*   Il **monitoraggio continuo è essenziale** per valutare l'impatto delle politiche e per anticipare segnali di crisi.
-*   **Non esistono soluzioni universali**: le strategie devono essere adattate ai contesti locali e considerando anche variabili esterne.
+*   **Global inequalities remain significant**, and there is a clear regional polarization in the distribution of happiness.
+*   Progress in well-being can be driven by **targeted public policies**, based on identified best practices.
+*   **Continuous monitoring is essential** to assess the impact of policies and to anticipate signs of crisis.
+*   **There are no one-size-fits-all solutions**: strategies must be adapted to local contexts while also taking external variables into account.
+
+## Useful Resources
+
+To view the work done in Tableau and access the project’s resources:
+*   **Overview Dashboard**: [Link to Overview Dashboard on Tableau]
+*   **2015–2019 Trends Dashboard**: [Link to 2015–2019 Trends Dashboard on Tableau]
+*   **Drive Folder with Resources**: [Link to the Drive folder]
+    *   Includes the datasets used for this project.
+    *   Includes guidelines for navigating the dashboards on Tableau.
 
 ## Risorse Utili
 
